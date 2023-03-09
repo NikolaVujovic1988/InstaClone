@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instaclone</title>
+    <link rel="icon" href="img/instagram.png">
+
+
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src='script.js'></script>
+</head>
+
+<body onload="render()">
+    <div class="body">
+        <div class="centerFromPage">
+            <div class="story">
+                <div class="storyContainer">
+                    <img src="img/pexels-dorjan-frrokaj-13431048.jpg" alt="story"
+                        class="storyImg storyImgFirst pointer">
+                    <span class="storySpan">Mr. X</span>
+                </div>
+                <div class="storyContainer">
+                    <img src="img/pexels-flower.jpg" alt="story" class="storyImg pointer">
+                    <span class="storySpan">Nature</span>
+                </div>
+                <div class="storyContainer">
+                    <img src="img/pexels-vinh-lâm-14979469.jpg" alt="story" class="storyImg pointer">
+                    <span class="storySpan">Just do it</span>
+                </div>
+                <div class="storyContainer">
+                    <img src="img/pexels-beyzaa-yurtkuran-15435631.jpg" alt="story" class="storyImg pointer">
+                    <span class="storySpan">Tierheim</span>
+                </div>
+                <div class="storyContainer">
+                    <img src="img/pexels-ozan-çulha-14875472.jpg" alt="story" class="storyImg pointer">
+                    <span class="storySpan">Mrs. Y</span>
+                </div>
+                <div class="storyContainer">
+                    <img src="img/pexels-kevin-ku-577585.jpg" alt="story" class="storyImg pointer">
+                    <span class="storySpan">IOS Devs</span>
+                </div>
+                <div class="storyContainer">
+                    <img src="img/pexels-ferrari.jpg" alt="story" class="storyImg pointer">
+                    <span class="storySpan">GRIP</span>
+                </div>
+            </div>
+            <div id="content" class="posts">
+                
+            </div>
+        </div>
+
+        <div class="leftSide">
+            <div class="logo">
+                <a href="index.html"> <img class="logoImg pointer" src="img/instagram-text-logo.jpeg" alt="Logo"></a>
+            </div>
+            <div class="leftSpaceBetween">
+                <div>
+                    <div class="left">
+                        <a href="index.html"><img class="smallImg pointer" src="img/heim.png" alt="Home"></a>
+                        <a href="index.html">
+                            <h3>Home</h3>
+                        </a>
+                    </div>
+                    <div class="left">
+                        <a href="index.html"> <img class="smallImg pointer" src="img/search.png" alt="Search"></a>
+                        <a href="index.html">
+                            <h3>Search</h3>
+                        </a>
+                    </div>
+                    <div class="left">
+                        <a href="index.html"> <img class="smallImg pointer" src="img/explore.png" alt="Explore"></a>
+                        <a href="index.html">
+                            <h3>Explore</h3>
+                        </a>
+                    </div>
+                    <div class="left">
+                        <a href="index.html"> <img class="smallImg pointer" src="img/video.png" alt="Reels"></a>
+                        <a href="index.html">
+                            <h3>Reels</h3>
+                        </a>
+                    </div>
+                    <div class="left">
+                        <a href="index.html"> <img class="smallImg pointer" src="img/send.png" alt="Messages"></a>
+                        <a href="index.html">
+                            <h3>Messages</h3>
+                        </a>
+                    </div>
+                    <div class="left">
+                        <a href="index.html"> <img class="smallImg pointer" src="img/notification.png"
+                                alt="Notifications"></a>
+                        <a href="index.html">
+                            <h3>Notifications</h3>
+                        </a>
+                    </div>
+                    <div class="left">
+                        <a href="index.html"> <img class="smallImg pointer" src="img/plus.png" alt="Create"></a>
+                        <a href="index.html">
+                            <h3>Create</h3>
+                        </a>
+                    </div>
+                    <div class="left">
+                        <a href="index.html"> <img class="smallImg pointer imgProfile"
+                                src="img/pexels-flower.jpg" alt="Profile picture"></a>
+                        <a href="index.html">
+                            <h3>Profile</h3>
+                        </a>
+                    </div>
+                </div>
+                <div class="leftMore">
+                    <div class="left">
+                        <img class="smallImg pointer" src="img/hamburger.png" alt="More">
+                        <h3>More</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="profile">
+                <img src="img/pexels-flower.jpg" alt="Profile" class="storyImg pointer">
+                <div class="profileName">
+                    <span class="storySpan"><b>Olja_Danitschka91</b></span>
+                    <span class="storySpan2"><b>Olja_Danilovic</b></span>
+                </div>
+                <span class="profileLinks pointer"><b>Switch</b></span>
+            </div>
+            <div class="sugestions">
+                <span class="sugestionsSpan">Suggestions for You</span>
+                <span class="sugestionsSpan pointer">See All</span>
+
+            </div>
+            <div class="profileSmall">
+                <div class="profileSmallRow">
+                    <img src="img/pexels-ferrari.jpg" alt="Profile" class="storyImgSmall pointer">
+                    <div class="profileName">
+                        <span class="storySpan"><b>Ferrari</b></span>
+                        <span class="storySpan2"><b>Followed by Mr. X + 1 more</b></span>
+                    </div>
+                </div>
+                <span class="profileLinks pointer"><b>Follow</b></span>
+            </div>
+
+            <div class="profileSmall">
+                <div class="profileSmallRow">
+                    <img src="img/pexels-newyork.jpg" alt="Profile" class="storyImgSmall pointer">
+                    <div class="profileName">
+                        <span class="storySpan"><b>NewYork</b></span>
+                        <span class="storySpan2"><b>Followed by Mrs. Y + 2 more</b></span>
+                    </div>
+                </div>
+                <span class="profileLinks pointer"><b>Follow</b></span>
+
+            </div>
+            <div class="profileSmall">
+                <div class="profileSmallRow">
+                    <img src="img/pexels-pizza.jpg" alt="Profile" class="storyImgSmall pointer">
+                    <div class="profileName">
+                        <span class="storySpan"><b>Pizza Town</b></span>
+                        <span class="storySpan2"><b>Followed by Just do it + 1 more</b></span>
+                    </div>
+                </div>
+                <span class="profileLinks pointer"><b>Follow</b></span>
+            </div>
+            <div class="profileSmall">
+                <div class="profileSmallRow">
+                    <img src="img/pexels-colors-party.jpg" alt="Profile" class="storyImgSmall pointer">
+                    <div class="profileName">
+                        <span class="storySpan"><b>Night Life NRW</b></span>
+                        <span class="storySpan2"><b>Followed by Dr. Feel Good + 6 more</b></span>
+                    </div>
+                </div>
+                <span class="profileLinks pointer"><b>Follow</b></span>
+            </div>
+            <div class="rightLinks">
+                <a href="index.html" class="rightLinks">
+                    About • Help • Press • Jobs • Privacy • Terms and imprint • NetzDG/UrhDaG/ranking of content • Locations • Language
+                </a>
+            </div>
+            <div class="rightLinks">
+                &copy; 2023 INSTACLONE FROM JONNY
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
