@@ -302,7 +302,7 @@ h3:hover {
   }
 
   .allComments {
-    color: gray !important;
+    color: rgb(130, 130, 130) !important;
   }
 
   .comments {
